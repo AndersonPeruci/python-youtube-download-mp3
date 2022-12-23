@@ -1,6 +1,7 @@
 from pytube import YouTube
 import os
 
+# Insert Youtube link list
 music_list = []
 
 for music in music_list:
