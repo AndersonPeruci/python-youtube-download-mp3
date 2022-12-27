@@ -10,18 +10,7 @@ def mp4_to_mp3(mp4, mp3):
 
 
 # Insert YouTube link list
-music_list = [
-    'https://www.youtube.com/watch?v=oYi_2oz9LAw',
-    'https://www.youtube.com/watch?v=URE0riL21Dc',
-    'https://www.youtube.com/watch?v=hlg4Zmt_I-Y',
-    'https://www.youtube.com/watch?v=7djMIjhZOro',
-    'https://www.youtube.com/watch?v=xcNn7Du1Ok4',
-    'https://www.youtube.com/watch?v=dc6oADkbQSw',
-    'https://www.youtube.com/watch?v=FE7Q950VptY',
-    'https://www.youtube.com/watch?v=ROMqfy1uZbQ',
-    'https://www.youtube.com/watch?v=jGd3V8lRqA4',
-    'https://www.youtube.com/watch?v=xxBIdj3MX9U'
-]
+music_list = []
 
 for music in music_list:
     print(f'Starting download: {music}')
